@@ -1,0 +1,16 @@
+@keyframes load {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+#firstWarningLoad {
+    height: 4px;
+    border-radius: 9px;
+    margin-top: -4px;
+    background-color: rgb(0, 0, 0);
+    animation: load 5s linear;
+}
